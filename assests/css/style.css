@@ -1,0 +1,542 @@
+.body{
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.font_fam{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    color:gray;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+#top{
+    width: 100%;
+}
+.Top_red{
+    font-family: 'Poppins',sans-serif;
+    background-color: #EA1826;
+    width: 100%;
+    height:40px;
+    display: block;
+}
+.icon_top{
+   height: 100px;
+   width: 100px;
+}
+.Top_icons{
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 2px;
+}
+.content_img{
+    position: absolute;
+    top:40vh;
+    left:0;
+    width: 80%;
+    color:white;
+}
+.bold_big{
+    font-family: 'Patua One', serif;
+    text-align: left;
+    font-size: 65px;
+    /* font-weight:500; */
+    color:white;
+}
+.slide1{
+    position: relative; 
+}
+
+.slide1 .opaci {
+    opacity: 0.5;
+    filter: brightness(70%);
+  }
+  
+  .slide1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 2, 10, 0.459);
+  }
+
+  .cli1,.cli2,.cli3,.cli4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  .cli2{
+    margin-left: -30px;
+  }
+  .cli3{
+    margin-left: -30px;
+  }
+  .cli4{
+    margin-left: -30px;
+  }
+  .client_text{
+    color: white;
+    font-family: 'Patua One', serif;
+  }
+.flex_contain1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+    width: 100%;
+}
+.font-2{
+    font-family: 'Patua One', serif;
+    color: #041c52;
+    font-size: 49px;
+    line-height: 1.2;
+}
+
+.logo_img{
+    display: block;
+    max-width: 170px;
+}
+.a,.a:hover{
+    text-decoration: none;
+    color:white;
+}
+.afont{
+    margin-top:28px;
+    position: absolute;
+    right:2px;
+    color:#041c52 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important; 
+}
+.active{
+    color:#EA1826 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.nav-link{
+    color:#041c52 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.nav-item{
+    padding:20px;
+}
+#Main_top{
+    width:100%;
+    height:90px;
+    display: block;
+    background-color: white;
+}
+
+.sticky {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:90px;
+    background-color: white !important;
+  display: block;
+  overflow: hidden;
+  }
+
+
+.navbar-toggler-icon{
+    position:absolute;
+    top:15px;
+    right:25px;
+}
+
+.bg1{
+background-color: #041c52;
+}
+
+.bg2{
+background-color: #EA1826;
+}
+
+.font_p1{
+    font-family: 'Patua One', serif;
+    color:white;
+    letter-spacing: 1.2;
+}
+.font_p2{
+    font-family: 'Patua One', serif;
+    color:white;
+    letter-spacing: 1.2;
+    font-size: 20px;
+}
+.contain-1{
+    position:absolute;
+    top: 20vh;
+    left: 12vh;
+    display: block;
+}
+.row-wid::after{
+    content: "Trusted Clients";
+    color:white;
+    font-weight: 300;
+    position: absolute;
+    left: 166px;
+    font-weight: 300;
+    font-family:  'Patua One', serif;
+}
+
+#serv{
+    min-height: 40vh;
+    width: 100%;
+}
+
+.contain-2{
+    overflow: hidden;
+}
+.card-serv{
+    text-align: left;
+    background-color: white;
+    font-family: 'Poppins',sans-serif;
+    color:gray;
+    font-weight: 300;
+}
+.card-serv-1,.card-serv-1_hov{
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    font-weight: 300;
+}
+.card-serv-1_hov:hover{
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    color:#EA1826;
+    font-weight: 300;
+}
+.card-serv-spl{
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    font-weight: 300;
+    font-size: 14px;
+    display: inline-block;
+}
+.card-serv-2{
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    font-weight:700;
+    font-size:25px;
+}
+.card-serv-center{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    color:gray;
+    font-weight: 300;
+}
+.Residential{
+    color:white;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding: 3px;
+    font-family:  'Patua One', serif;
+    font-size: 25px;
+}
+.bg3{
+    background-color: #041c52;
+    padding-top: 5px;
+    }
+
+.Read-more::before{
+content: " ";
+width: 100%;
+height: 2px;
+background-color: rgba(128, 128, 128, 0.664);
+display: block;
+margin:5px;
+margin-left: 0;
+}
+
+.Read-more{
+    text-decoration: none;
+    color:#041c52;
+    font-family:  'Patua One', serif;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.Read-more:hover{
+text-decoration: none;
+color: #EA1826;
+font-family:  'Patua One', serif;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 0;
+}
+.Read-more:hover + .bg3{
+    background-color: #EA1826 !important;
+}
+
+.rec{
+    height: 20px;
+    width: 17%;
+    background-color: #041c52;
+    position: relative;
+    top: -20px;
+    left: -18px;
+    margin:0;
+    padding: 0;
+    display: inline-block;
+}
+
+/* sec3 */
+#sec3{
+    min-height: 120vh;
+    width:100%;
+}
+.red_rec{
+    min-height:220px;
+    width:100%;
+    background-color: #EA1826;
+}
+.img_div{
+    height:300px;
+    width:100%;
+}
+
+.font-subhead{
+    font-family:  'Patua One', serif ;
+    color: #041c52;
+    font-weight: lighter !important;
+    font-size: 24px !important;
+}
+.font-subhead-1{
+    font-family:  'Patua One', serif ;
+    color: #041c52;
+    font-weight: lighter !important;
+    font-size: 35px !important;
+}
+.font-subhead-big{
+    font-family:  'Patua One', serif ;
+    color: #041c52;
+    font-weight: lighter !important;
+    font-size: 45px !important;
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+.img_size{
+    height:100%;
+    width:100%;
+}
+.img_size2{
+    height: 100%;
+    width:90%;
+}
+.font-subhead-2{
+    font-family:  'Patua One', serif ;
+    color: #041c52;
+    font-weight: lighter !important;
+    font-size: 18px !important;
+}
+.font-subhead-2-white{
+    font-family:  'Patua One', serif ;
+    color: white;
+    font-weight: lighter !important;
+    font-size: 47px !important;
+}
+.font-subhead-2-white1{
+    font-family:  'Patua One', serif ;
+    color: white;
+    font-weight: lighter !important;
+    font-size: 30px !important;
+}
+.line_after::after{
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.486);
+    display: block;
+    margin:8px;
+    margin-left: 0;
+   margin-top: 10px;
+    }
+
+.cli5{
+    height:70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+#sec4{
+    width: 100%;
+    min-height: 170vh;
+    background-color: #041c52;
+}
+
+.roof1{
+    list-style-type: none;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    width: 195px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 30px 20px;
+    background-color: white;
+    margin-bottom: 30px;
+    color:#041c52;
+    margin:15px;
+}
+.roo1_items{
+    margin:5px;
+}
+.bg-white1{
+    min-height: 60vh;
+    background-color: white;
+    border-radius: 4px;
+    padding:5px;
+}
+.img2{
+    height: 400px;
+    width: 100%;
+    border-radius: 4px;
+}
+.li_items{
+    line-height: 2;
+    list-style-type:none;
+    font-size: 16px;
+    color:#041c52;
+    font-family:'Patua One', serif ;
+}
+.style_btn{
+    color:white;
+    background-color: #EA1826;
+    height:42px;
+    width:122px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    padding:15px 5px;
+    text-decoration: none;
+}
+
+.style_btn:hover{
+    color:white;
+    background-color: #EA1826;
+    height:44px;
+    width:124px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    padding:5px 2px;
+    text-decoration: none;
+}
+
+.icon_tic{
+    font-size: 25px;
+    color:#EA1826 ;
+    padding-right: 5px;
+}
+#sec5{
+    width: 100%;
+    min-height:120vh;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact_us{
+    width: 100%;
+    min-height:110vh;
+    background-color:  #102039;
+    padding-top: 20px;
+}
+
+.input_style{
+    padding: 10px;
+    border: 0;
+    width:100%;
+}
+.input_style:hover{
+    padding: 10px;
+    border: 0;
+    width:100%;
+}
+
+.foot_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+.foot_a{
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    font-size: 18px;
+    font-weight:600;
+}
+.foot_a:hover{
+        text-decoration: none;
+        text-align: left;
+        font-family: 'Poppins',sans-serif;
+        color:#EA1826;
+        font-weight: 600;
+}
+.foot_items{
+    list-style-type:none;
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+@media (max-width: 768px){
+    .Top_red{
+        display: none;
+    }
+   
+    .slide1{
+        width:100%;
+    }
+    .contain-1{
+        display: none;
+    }
+    .content_img{
+        position: absolute;
+        top:20vh;
+        left:0;
+        color:white;
+        width:70%;
+    }
+    
+    .bold_big{
+        width:60%;
+        font-size: 50px;
+    }
+    .row-wid{
+        width:100%;
+    }
+    .row-wid::after{
+        content: "Trusted Clients";
+        color:white;
+        font-weight: 300;
+        font-weight: 300;
+        font-family:  'Patua One', serif;
+    }
+}
