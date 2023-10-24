@@ -8,6 +8,11 @@
     font-weight: 300;
     color:gray;
 }
+.font_fam_2{
+    font-family: 'Patua One', serif;
+    color:white;
+    font-size: 33px;
+}
 *{
     padding: 0;
     margin: 0;
@@ -194,6 +199,15 @@ background-color: #EA1826;
     color:gray;
     font-weight: 300;
 }
+.card-serv-justify{
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
+    color:gray;
+    font-weight: 400;
+    font-size:16px;
+    padding: 5px;
+
+}
 .card-serv-1,.card-serv-1_hov{
     text-align: left;
     font-family: 'Poppins',sans-serif;
@@ -295,9 +309,33 @@ font-family:  'Patua One', serif;
     width:100%;
     background-color: #EA1826;
 }
+.red_rec1{
+    width:100%;
+    background-color: #EA1826;
+}
+.red_tri{
+        width: 0; 
+        height: 0; 
+        border-left: 225px solid transparent;
+        border-right: 250px solid transparent;
+        border-bottom: 90px solid #EA1826;
+}
+.red_tri h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .img_div{
     height:300px;
     width:100%;
+}
+.tri_Tex{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
 }
 
 .font-subhead{
@@ -313,6 +351,13 @@ font-family:  'Patua One', serif;
     font-size: 22px !important;
     padding:30px;
 }
+
+.font-red-subhead{
+    color: #EA1826;
+    font-size: 22px !important;
+    padding:5px;
+    margin-bottom: 10px;
+}
 .font-subhead-1{
     font-family:  'Patua One', serif ;
     color: #041c52;
@@ -324,6 +369,14 @@ font-family:  'Patua One', serif;
     color: #041c52;
     font-weight: lighter !important;
     font-size: 45px !important;
+    padding:5px;
+    margin-bottom: 10px;
+}
+.font-subhead-big1{
+    font-family:  'Patua One', serif ;
+    color: #041c52;
+    font-weight: lighter !important;
+    font-size: 50px !important;
     padding:5px;
     margin-bottom: 10px;
 }
@@ -399,6 +452,7 @@ font-family:  'Patua One', serif;
     border-radius: 4px;
     cursor: pointer;
     padding: 30px 30px;
+   
     margin-bottom: 30px;
     color:#041c52;
     margin:15px;
@@ -510,7 +564,49 @@ font-family:  'Patua One', serif;
     line-height: 2;
 
 }
-
+#sec6{
+    width:100%;
+    min-height:100vh;
+    background-color: rgba(231, 230, 230, 0.062);
+    padding-bottom: 20px;
+}
+.input1{
+    font-family: 'Poppins',sans-serif;
+    color:gray;
+    font-weight: 300;
+    padding: 9px;
+    width:100%;
+    border-radius: 3px;
+    margin-right:4px; 
+    border: 1px solid gray;
+}
+.input3{
+    font-family: 'Poppins',sans-serif;
+    color:gray;
+    font-weight: 300;
+    padding: 9px;
+    width:100%;
+    border-radius: 3px;
+    margin-right:4px; 
+    border: 1px solid gray;
+}
+.input2{
+    font-family: 'Poppins',sans-serif;
+    color:gray;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 2px;
+    border-color: gray;
+    width: 88%;
+}
+.btn-danger{
+    padding:8px 22px;
+    color:white;
+    background-color: #EA1826;
+    font-family: 'Poppins',sans-serif;
+    font-weight:400;
+}
 @media (max-width: 768px){
     .Top_red{
         display: none;
@@ -544,5 +640,13 @@ font-family:  'Patua One', serif;
         font-weight: 300;
         font-family:  'Patua One', serif;
     }
+
+    .red_tri{
+        width: 0;
+        height: 0;
+        border-left: 145px solid transparent;
+        border-right: 145px solid transparent;
+        border-bottom: 90px solid #EA1826;
+}
    
 }
